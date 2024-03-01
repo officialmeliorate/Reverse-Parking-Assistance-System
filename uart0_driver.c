@@ -105,3 +105,4 @@ void uart0_ascii(u8 temp)
 	uart0_tx(((temp/10)%10)+48);
 	uart0_tx((temp%10)+48);
 }
+
