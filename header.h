@@ -40,3 +40,6 @@ extern void can2_rx (CAN2 *);
 extern void config_vic (void);
 extern void en_CAN_intr (void);
 
+extern void us_init(void);
+extern void send_pulse(void);
+extern unsigned int get_range(void);
